@@ -1,8 +1,3 @@
-data "tencentcloud_images" "image_centos76x64" {
-  image_type       = ["PUBLIC_IMAGE"]
-  image_name_regex = "^CentOS\\s+7\\.6\\s+64\\w*"
-}
-
 # 独立资源 VPC
 resource "tencentcloud_vpc" "vpc_01" {
   name       = "terraform_test"
