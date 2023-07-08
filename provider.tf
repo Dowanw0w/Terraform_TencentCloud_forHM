@@ -7,6 +7,7 @@ terraform {
   }
 }
 
+# AK & SK
 provider "tencentcloud" {
   region     = "ap-beijing"
   secret_id  = ""
