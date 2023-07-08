@@ -1,3 +1,4 @@
+
 # 定义子网变量
 variable "subnets" {
   type = map(object({
